@@ -60,5 +60,5 @@ typings/
 # next.js build output
 .next
 
-#video/input
-#video/output
+video/input
+video/output
