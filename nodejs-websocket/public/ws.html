@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web Socket PoC</title>
+
+<script src="/socket.io.js"></script>
+<script>
+
+var socket = io();
+
+socket.on('news', function(msg){
+	console.log('Received message from server: ' + JSON.stringify(msg));
+});
+
+socket.emit('chat message', 'Test');
+
+</script>
+
+
+
+</head>
+
+<body>
+<div id="sse">
+         <a href="javascript:socket.emit('chat message', {from: 'c2', msg: 'Test'});">Send Message</a>
+      </div
+</body>
+
+</html>
