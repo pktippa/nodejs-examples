@@ -1,0 +1,11 @@
+{
+  "name": "raml-to-html",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node convert.js"
+  },
+  "dependencies": {
+    "raml2html": "0.20.0"
+  }
+}
