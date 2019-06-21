@@ -1,0 +1,12 @@
+{
+  "name": "pk-nodejs-mongodb",
+  "version": "0.0.1",
+  "description": "pk-nodejs-mongodb",
+  "author": {
+    "name": "pktippa",
+    "email": "pktippa@gmail.com"
+  },
+  "dependencies": {
+    "mongodb":"1.4.38",
+  }
+}
