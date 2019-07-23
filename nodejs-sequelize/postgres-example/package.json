@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-sequelize-postgres-example",
+  "version": "1.0.0",
+  "description": "NodeJS Sequelize Postgres Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Pradeep Kumar Tippa",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.10.2"
+  }
+}

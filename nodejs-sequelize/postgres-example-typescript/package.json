@@ -1,0 +1,25 @@
+{
+  "name": "postgres-example-typescript",
+  "version": "1.0.0",
+  "description": "NodeJS Postgres Sequelize Typescript",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/tsc && node dist/app.js",
+    "xt": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pktippa@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.10.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3",
+    "@types/sequelize": "4.27.16",
+    "@types/node": "8",
+    "@types/bluebird": "3.5.20",
+    "@types/validator": "10.11.1"
+  }
+}
