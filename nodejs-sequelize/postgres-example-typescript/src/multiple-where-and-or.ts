@@ -1,6 +1,6 @@
 import { Sequelize, Model, STRING, INTEGER, JSONB, Op, DATE } from 'sequelize';
 
-const sequelize = new Sequelize('postgres://postgres:postgres@localhost:5432/test_db_2');
+const sequelize = new Sequelize('postgres://postgres:postgres@localhost:5432/playfield');
 class Account extends Model {
 }
 Account.init({
@@ -55,19 +55,19 @@ const authenticate = async () => {
                 }
               ]
             },
-            {
-              [Op.or]: [
-                {
-                  p_phn: {
-                    [Op.iLike]: '%900%'
-                  }
-                }, {
-                  s_phn: {
-                    [Op.iLike]: '%900%'
-                  }
-                }
-              ]
-            }
+            // {
+            //   [Op.or]: [
+            //     {
+            //       p_phn: {
+            //         [Op.iLike]: '%900%'
+            //       }
+            //     }, {
+            //       s_phn: {
+            //         [Op.iLike]: '%900%'
+            //       }
+            //     }
+            //   ]
+            // }
           
           ]
         },

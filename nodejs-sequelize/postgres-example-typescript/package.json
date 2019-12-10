@@ -7,7 +7,10 @@
     "start": "./node_modules/.bin/tsc && node dist/app.js",
     "start:many": "./node_modules/.bin/tsc && node dist/many-to-many.js",
     "start:where": "./node_modules/.bin/tsc && node dist/multiple-where-and-or.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:jsonb": "./node_modules/.bin/tsc && node dist/jsonb-array.js",
+    "start:aggregate": "node dist/aggregate.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/tsc --watch"
   },
   "author": "pktippa@gmail.com",
   "license": "MIT",
