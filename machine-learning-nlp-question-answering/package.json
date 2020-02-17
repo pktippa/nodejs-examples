@@ -1,0 +1,14 @@
+{
+  "name": "machine-learning-nlp-question-answering",
+  "version": "1.0.0",
+  "description": "Question Answering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pktippa@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "question-answering": "^1.3.0"
+  }
+}
